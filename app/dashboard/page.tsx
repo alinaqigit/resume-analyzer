@@ -68,7 +68,7 @@ export default function DashboardPage() {
 
           {/* Job Search Card - NEW */}
           <Link href="/search-jobs">
-            <div className="bg-gradient-to-br from-indigo-500 to-purple-600 rounded-lg shadow p-6 hover:shadow-lg transition-all cursor-pointer text-white">
+            <div className="bg-linear-to-br from-indigo-500 to-purple-600 rounded-lg shadow p-6 hover:shadow-lg transition-all cursor-pointer text-white">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-12 h-12 bg-white bg-opacity-20 rounded-full flex items-center justify-center">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">

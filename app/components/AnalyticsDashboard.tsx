@@ -57,7 +57,6 @@ const AnalyticsDashboard: React.FC<AnalyticsDashboardProps> = ({
 
   // Calculate analytics from profile data
   const calculateAnalytics = () => {
-    console.log(profileData)
     const skillNames = profileData.skills.map((s) => s.name);
 
     // Skill categories analysis
@@ -341,7 +340,7 @@ const AnalyticsDashboard: React.FC<AnalyticsDashboardProps> = ({
         </div>
 
         {/* Career Readiness Score */}
-        <div className="bg-gradient-to-r from-indigo-600 to-purple-600 rounded-lg p-8 mb-6 text-white">
+        <div className="bg-linear-to-r from-indigo-600 to-purple-600 rounded-lg p-8 mb-6 text-white">
           <div className="flex items-center justify-between">
             <div>
               <h2 className="text-xl font-semibold mb-2">

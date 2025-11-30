@@ -22,7 +22,6 @@ export async function GET(req: NextRequest) {
 
     // Check if user exists and profile is completed
     const user = await UserModel.findOne({ clerkId: userId });
-
     return NextResponse.json({
       isProfileCompleted: user?.isProfileCompleted || false,
       userId: userId

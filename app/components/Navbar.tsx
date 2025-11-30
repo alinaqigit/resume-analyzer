@@ -7,11 +7,8 @@ import {
   SignedOut,
   UserButton,
 } from "@clerk/nextjs";
-import { usePathname } from "next/navigation";
 
 export default function Navbar() {
-  const path = usePathname();
-  console.log(path);
 
   return (
     <nav className="border-b border-gray-200 bg-white/80 backdrop-blur-sm sticky top-0 z-50">
